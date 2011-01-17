@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weider_6">Aerobiczna Szóstka Weidera</string>
+    <string name="app_name">6 Weidera</string>
+    <string name="train">Ćwicz!</string>
+    <string name="edit_current_day">Zmień bierzący dzień</string>
+    <string name="day_count">Dzień %d</string>
+   	<string name="series_no">Seria %1$d z %2$d</string>
+    <string name="exercise_no">Ćwiczenie %1$d z %2$d</string>
+    <string name="repetition_no">Powtórzenie %1$d z %2$d</string>
+</resources>

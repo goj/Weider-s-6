@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#e1f2e0"
+  android:clickable="true"
+  android:hapticFeedbackEnabled="true"
+  android:id="@+id/TrainLayout"
+  >
+  <LinearLayout
+	  android:orientation="vertical"
+	  android:gravity="center"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+  >
+	<ImageView
+		android:id="@+id/ExerciseImage"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/a6w1"></ImageView>
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/RepetitionTV"
+		android:textColor="#000000"
+		android:text="@string/repetition_no"></TextView>
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/ExerciseTV"
+		android:textColor="#000000"
+		android:text="@string/exercise_no"></TextView>
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/SeriesTV"
+		android:textColor="#000000"
+		android:text="@string/series_no"></TextView>
+</LinearLayout>
+	<TextView
+		android:text="@string/day_count"
+		android:id="@+id/TrainDayCount"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		/>
+</RelativeLayout>

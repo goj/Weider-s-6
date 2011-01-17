@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/RelativeLayout01"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView
+		android:id="@+id/weider_6_text"
+		android:text="@string/weider_6"
+		android:gravity="center"
+		android:textSize="24dp"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_centerInParent="true"></TextView>
+	<Button
+		android:layout_height="wrap_content"
+		android:id="@+id/train_button"
+		android:layout_below="@+id/weider_6_text"
+		android:text="@string/train"
+		android:layout_width="wrap_content"
+		android:layout_alignLeft="@+id/weider_6_text"
+		android:layout_alignRight="@+id/weider_6_text"
+		android:onClick="trainButtonClicked"/>
+	<TextView android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:id="@+id/day_count_tv"
+		android:text="@+id/day_count_tv"
+		android:layout_width="wrap_content"
+		android:layout_alignParentRight="true"
+		android:longClickable="true"
+		/>
+</RelativeLayout>
